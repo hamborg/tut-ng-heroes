@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'Tut-angularTourOfHeroes';
+export class AppComponent { // Det her lader til at blive eksporteret til view'et, fordi 'app.component.html' har adgang hertil.
+  title = 'Tour Of Heroes';
 }
